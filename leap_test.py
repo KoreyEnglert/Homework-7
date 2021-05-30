@@ -8,5 +8,8 @@ class TestCase(unittest.TestCase):
     def test_add2(self):
         self.assertEqual(leap.is_leap(4), True);
 
+    def test_add3(self):
+        self.assertEqual(leap.is_leap(100), False);
+
 if __name__ == '__main__':
     unittest.main()
